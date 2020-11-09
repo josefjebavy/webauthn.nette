@@ -43,7 +43,7 @@ RUN mkdir -p \
 		/var/www
 
 USER www-data
-RUN composer global require hirak/prestissimo
+#RUN composer global require hirak/prestissimo
 
 # Install app dependencies
 COPY ./composer.json ./composer.lock ./
